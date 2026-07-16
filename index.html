@@ -5,39 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HortizonMart | Katalog Sayuran Segar Rumah Kemas Hortizon Merbabu</title>
 
-  <!-- ===== SEO: Meta Deskripsi & Kata Kunci ===== -->
-  <meta name="description" content="HortizonMart adalah katalog digital sayuran segar dari Rumah Kemas Hortizon Merbabu, rumah kemas hortikultura di Desa Batur, Kecamatan Getasan, Kabupaten Semarang, Jawa Tengah. Sayuran segar langsung dari petani lereng Gunung Merbabu.">
-  <meta name="keywords" content="Rumah Kemas Hortizon Merbabu, HortizonMart, sayuran segar Getasan, hortikultura Merbabu, packing house sayuran Semarang, sayur segar Jawa Tengah">
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="KrptSzCmMayqJ_YXbOLz4sF8T3A9K26W976uJXU3uaY" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="HortizonMart adalah katalog digital sayuran segar dari Rumah Kemas Hortizon Merbabu, rumah kemas hortikultura di Desa Batur, Kecamatan Getasan, Kabupaten Semarang. Sayuran segar dari lereng Merbabu, disortasi dan dicuci dengan teknologi d'Ozone.">
+  <meta name="keywords" content="rumah kemas hortizon merbabu, hortizonmart, sayuran segar getasan, sayuran semarang, packing house sayuran, sayuran lereng merbabu">
   <meta name="author" content="Rumah Kemas Hortizon Merbabu">
   <link rel="canonical" href="https://hortizon-merbabu-mart.pages.dev/">
 
-  <!-- ===== Open Graph (preview link di WhatsApp/Facebook/dll) ===== -->
+  <!-- Open Graph (tampilan saat link dibagikan di WhatsApp/Facebook) -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="HortizonMart | Katalog Sayuran Segar Rumah Kemas Hortizon Merbabu">
   <meta property="og:description" content="Katalog digital sayuran segar dari Rumah Kemas Hortizon Merbabu, Desa Batur, Kecamatan Getasan, Kabupaten Semarang.">
-  <meta property="og:image" content="https://hortizon-merbabu-mart.pages.dev/images/logo.png">
   <meta property="og:url" content="https://hortizon-merbabu-mart.pages.dev/">
+  <meta property="og:image" content="https://hortizon-merbabu-mart.pages.dev/images/hero-sayur.jpg">
   <meta property="og:locale" content="id_ID">
 
-  <!-- ===== Data Terstruktur (Schema.org) supaya Google kenali sebagai bisnis lokal ===== -->
+  <!-- Schema.org: LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Rumah Kemas Hortizon Merbabu",
     "alternateName": "HortizonMart",
-    "image": "https://hortizon-merbabu-mart.pages.dev/images/logo.png",
     "url": "https://hortizon-merbabu-mart.pages.dev/",
-    "telephone": "+6285727947178",
+    "logo": "https://hortizon-merbabu-mart.pages.dev/images/logo.png",
+    "image": "https://hortizon-merbabu-mart.pages.dev/images/hero-sayur.jpg",
+    "description": "Rumah kemas (packing house) hortikultura yang menyediakan sayuran segar hasil sortasi dan pencucian dengan teknologi d'Ozone.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Desa Batur",
+      "streetAddress": "Kaliduren, Batur",
       "addressLocality": "Kecamatan Getasan",
       "addressRegion": "Kabupaten Semarang, Jawa Tengah",
       "postalCode": "50774",
       "addressCountry": "ID"
     },
-    "description": "Rumah kemas (packing house) hortikultura yang menangani pascapanen sayuran segar dari petani lokal lereng Gunung Merbabu."
+    "telephone": "+6285727947178",
+    "email": "rumahkemashortizonmerbabu@gmail.com",
+    "priceRange": "$$"
   }
   </script>
 
@@ -152,6 +158,8 @@
             <option value="default">Urutkan</option>
             <option value="nameAsc">Nama A-Z</option>
             <option value="nameDesc">Nama Z-A</option>
+            <option value="priceAsc">Harga Terendah</option>
+            <option value="priceDesc">Harga Tertinggi</option>
           </select>
         </div>
       </div>
@@ -184,6 +192,7 @@
         </div>
         <div class="modal__info">
           <h3 id="modalName"></h3>
+          <p class="modal__price" id="modalPrice"></p>
           <p class="modal__description" id="modalDescription"></p>
           <div class="modal__actions">
             <a href="#" id="modalOrderBtn" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
