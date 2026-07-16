@@ -9,7 +9,7 @@ const fallbackProducts = [
   {
     id: 1,
     name: "Cabuca",
-    price: 15000,
+    price: 9000,
     stock: 25,
     image: "images/cabuca.jpg",
     description: "Cabuca segar pilihan, dipanen langsung dari lahan petani mitra."
@@ -17,7 +17,7 @@ const fallbackProducts = [
   {
     id: 2,
     name: "Kucai",
-    price: 8000,
+    price: 17000,
     stock: 35,
     image: "images/kucai.jpg",
     description: "Kucai segar dengan aroma khas, cocok untuk pelengkap masakan."
@@ -25,7 +25,7 @@ const fallbackProducts = [
   {
     id: 3,
     name: "Wortel",
-    price: 11000,
+    price: 15000,
     stock: 42,
     image: "images/wortel.jpg",
     description: "Wortel segar pilihan, renyah dan kaya vitamin A untuk kebutuhan harian."
