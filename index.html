@@ -102,7 +102,7 @@
   <section class="products" id="produk">
     <div class="container">
       <h2 class="section-title fade-in">Katalog Produk Kami</h2>
-      <p class="section-subtitle fade-in">Temukan aneka sayur dan buah segar pilihan</p>
+      <p class="section-subtitle fade-in">Harga bisa berubah menyesuaikan dengan musim dan pasar</p>
 
       <!-- Search & Filter Bar -->
       <div class="products__toolbar fade-in">
@@ -116,6 +116,8 @@
             <option value="default">Urutkan</option>
             <option value="nameAsc">Nama A-Z</option>
             <option value="nameDesc">Nama Z-A</option>
+            <option value="priceAsc">Harga Terendah</option>
+            <option value="priceDesc">Harga Tertinggi</option>
           </select>
         </div>
       </div>
@@ -148,6 +150,7 @@
         </div>
         <div class="modal__info">
           <h3 id="modalName"></h3>
+          <p class="modal__price" id="modalPrice"></p>
           <p class="modal__description" id="modalDescription"></p>
           <div class="modal__actions">
             <a href="#" id="modalOrderBtn" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
@@ -212,7 +215,7 @@
             <i class="fa-solid fa-envelope"></i>
             <div>
               <h4>Email</h4>
-              <p>rumahkemashortizonmerbabu@gmail.com</p>
+              <p>info@hortizonmart.id</p>
             </div>
           </div>
         </div>
