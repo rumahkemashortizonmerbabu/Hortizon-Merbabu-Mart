@@ -17,6 +17,7 @@ const modalClose = document.getElementById("modalClose");
 const modalCloseBtn = document.getElementById("modalCloseBtn");
 const modalImage = document.getElementById("modalImage");
 const modalName = document.getElementById("modalName");
+const modalPrice = document.getElementById("modalPrice");
 const modalDescription = document.getElementById("modalDescription");
 const modalOrderBtn = document.getElementById("modalOrderBtn");
 
@@ -95,6 +96,14 @@ function loadProducts() {
 }
 
 /* ------------------------------------------------------
+   FORMAT HARGA
+   Mengubah angka menjadi format Rupiah, contoh: 15000 -> Rp15.000
+------------------------------------------------------ */
+function formatRupiah(number) {
+  return "Rp" + Number(number || 0).toLocaleString("id-ID");
+}
+
+/* ------------------------------------------------------
    RENDER PRODUCTS
    Mengambil data dari products.js, memfilter,
    mencari, mengurutkan, lalu menampilkan ke grid.
@@ -127,6 +136,7 @@ function renderProducts() {
       </div>
       <div class="product-card__body">
         <h3 class="product-card__name">${product.name}</h3>
+        <p class="product-card__price">${formatRupiah(product.price)} <span class="product-card__unit">/ kg</span></p>
         <p class="product-card__desc">${product.description}</p>
         <button class="btn btn--primary product-card__btn" data-id="${product.id}">
           Lihat Detail
@@ -198,6 +208,7 @@ function openModal(id) {
   modalImage.src = product.image;
   modalImage.alt = product.name;
   modalName.textContent = product.name;
+  modalPrice.textContent = `${formatRupiah(product.price)} / kg`;
   modalDescription.textContent = product.description;
 
   // Susun link WhatsApp dengan pesan otomatis berisi nama produk
