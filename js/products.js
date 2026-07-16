@@ -33,7 +33,7 @@ const fallbackProducts = [
   {
     id: 4,
     name: "Siomak",
-    price: 12000,
+    price: 15000,
     stock: 20,
     image: "images/siomak.jpg",
     description: "Siomak segar hasil panen lokal, kualitas terjaga sejak dipetik."
@@ -49,7 +49,7 @@ const fallbackProducts = [
   {
     id: 6,
     name: "Tomat Hijau",
-    price: 13000,
+    price: 9000,
     stock: 30,
     image: "images/tomat-hijau.jpg",
     description: "Tomat hijau segar dengan rasa asam segar, cocok untuk sambal dan acar."
@@ -65,7 +65,7 @@ const fallbackProducts = [
   {
     id: 8,
     name: "Kentang",
-    price: 15000,
+    price: 18000,
     stock: 60,
     image: "images/kentang.jpg",
     description: "Kentang berkualitas premium dengan tekstur pulen, hasil panen lokal Merbabu."
@@ -73,7 +73,7 @@ const fallbackProducts = [
   {
     id: 9,
     name: "Kolbis",
-    price: 8000,
+    price: 9000,
     stock: 33,
     image: "images/kolbis.jpg",
     description: "Kolbis segar dan renyah, cocok untuk lalapan maupun masakan tumis."
@@ -89,7 +89,7 @@ const fallbackProducts = [
   {
     id: 11,
     name: "Labu Siam (Jipang)",
-    price: 6500,
+    price: 6000,
     stock: 48,
     image: "images/labu-siam.jpg",
     description: "Labu siam atau jipang segar dan renyah, cocok untuk sayur bening maupun tumisan."
@@ -97,7 +97,7 @@ const fallbackProducts = [
   {
     id: 12,
     name: "Daun Bawang (Onclang)",
-    price: 9000,
+    price: 15000,
     stock: 38,
     image: "images/daun-bawang.jpg",
     description: "Daun bawang atau onclang segar, aroma kuat cocok sebagai pelengkap masakan."
@@ -105,7 +105,7 @@ const fallbackProducts = [
   {
     id: 13,
     name: "Pakcoy (Sawi Sendok)",
-    price: 8500,
+    price: 8000,
     stock: 32,
     image: "images/pakcoy.jpg",
     description: "Pakcoy atau sawi sendok segar dengan tekstur renyah, cocok untuk tumisan."
@@ -113,7 +113,7 @@ const fallbackProducts = [
   {
     id: 14,
     name: "Timun Hijau",
-    price: 7000,
+    price: 24000,
     stock: 50,
     image: "images/timun-hijau.jpg",
     description: "Timun hijau segar dan renyah, cocok untuk lalapan maupun acar."
@@ -121,7 +121,7 @@ const fallbackProducts = [
   {
     id: 15,
     name: "Kacang Kapri",
-    price: 20000,
+    price: 30000,
     stock: 22,
     image: "images/kacang-kapri.jpg",
     description: "Kacang kapri segar dengan rasa manis renyah, cocok untuk tumisan sayur."
@@ -129,7 +129,7 @@ const fallbackProducts = [
   {
     id: 16,
     name: "Kacang Panjang",
-    price: 9500,
+    price: 8000,
     stock: 40,
     image: "images/kacang-panjang.jpg",
     description: "Kacang panjang segar, cocok untuk sayur asem maupun tumisan sehari-hari."
@@ -145,7 +145,7 @@ const fallbackProducts = [
   {
     id: 18,
     name: "Buncis",
-    price: 13000,
+    price: 15000,
     stock: 33,
     image: "images/buncis.jpg",
     description: "Buncis segar dengan tekstur renyah, cocok untuk tumisan maupun sayur sop."
@@ -169,7 +169,7 @@ const fallbackProducts = [
   {
     id: 21,
     name: "Selada",
-    price: 9500,
+    price: 12000,
     stock: 27,
     image: "images/selada.jpg",
     description: "Selada segar dengan daun hijau renyah, cocok untuk salad dan pelengkap burger."
@@ -177,7 +177,7 @@ const fallbackProducts = [
   {
     id: 22,
     name: "Edamame",
-    price: 25000,
+    price: 24000,
     stock: 18,
     image: "images/edamame.jpg",
     description: "Edamame segar kaya protein, cocok untuk camilan sehat atau pelengkap salad."
@@ -185,7 +185,7 @@ const fallbackProducts = [
   {
     id: 23,
     name: "Sawi Putih",
-    price: 8500,
+    price: 8000,
     stock: 30,
     image: "images/sawi-putih.jpg",
     description: "Sawi putih segar dengan tekstur lembut, cocok untuk sup dan tumisan."
@@ -193,7 +193,7 @@ const fallbackProducts = [
   {
     id: 24,
     name: "Cabe Merah Keriting",
-    price: 48000,
+    price: 28000,
     stock: 28,
     image: "images/cabe-merah-keriting.jpg",
     description: "Cabe merah keriting segar, pedas pas dan cocok untuk sambal maupun bumbu masakan."
@@ -201,7 +201,7 @@ const fallbackProducts = [
   {
     id: 25,
     name: "Cabe Rawit Merah",
-    price: 55000,
+    price: 35000,
     stock: 24,
     image: "images/cabe-rawit-merah.jpg",
     description: "Cabe rawit merah segar dengan tingkat kepedasan tinggi, favorit pecinta pedas."
