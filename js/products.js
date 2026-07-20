@@ -9,7 +9,7 @@ const fallbackProducts = [
   {
     id: 1,
     name: "Cabuca",
-    price: 12000,
+    price: 9000,
     stock: 25,
     image: "images/cabuca.jpg",
     description: "Cabuca segar pilihan, dipanen langsung dari lahan petani mitra."
